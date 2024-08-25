@@ -23,8 +23,8 @@ def move_json_files_to_new_zip(source_zip_path, json_zip_path):
     os.replace(temp_zip_path, json_zip_path)
 
 # Caminho para o arquivo ZIP original e o caminho do novo arquivo ZIP para os arquivos .json
-source_zip_path = r'C:\Users\caios\OneDrive\Documentos\Backup.zip'
-json_zip_path = r'C:\Users\caios\OneDrive\Documentos\novo_arquivo_json.zip'
+source_zip_path = r'LOCAL DOS ARQUIVO'
+json_zip_path = r'ARQUIVOS ORGANIZADOS'
 
 # Verifique se o arquivo de origem existe
 if not os.path.exists(source_zip_path):
