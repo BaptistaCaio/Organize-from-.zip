@@ -4,6 +4,7 @@ Funcionalidades adicionadas:
 3- O usuário poderá ver, entre os arquivos contidos no .zip, quais ele quer separar
 4- Cada tipo de arquivo selecionado para separação terá uma pasta própria, se não, criará uma pasta comum
 5- Interface gráfica simples para ser mais user-friendly 
+6- Suporte para pastas de arquivos adicionado
 
 Correções:
 Os arquivos temporários serão excluídos assim que o programa finalizar o processamento dos arquivos para não ocupar espaço desnecessário em disco.
