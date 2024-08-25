@@ -1,0 +1,9 @@
+Funcionalidades adicionadas: 
+1- O usuário pode escolher o local do arquivo sem precisar mexer no código para colocar o endereço. 
+2- O usuário tem a opção de escolher o local em que deseja salvar os zips com os arquivos separados.
+3- O usuário poderá ver, entre os arquivos contidos no .zip, quais ele quer separar
+4- O usuário poderá escolher o nome dos novos arquivos
+5- Interface gráfica simples para ser mais user-friendly 
+
+Correções:
+Os arquivos temporários serão excluídos assim que o programa finalizar o processamento dos arquivos para não ocupar espaço desnecessário em disco.
