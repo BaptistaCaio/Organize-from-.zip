@@ -7,3 +7,4 @@ Funcionalidades adicionadas:
 
 Correções:
 Os arquivos temporários serão excluídos assim que o programa finalizar o processamento dos arquivos para não ocupar espaço desnecessário em disco.
+Simplificação do algoritmo, haja vista que em casos de .zip vindos do Google Takeout, não consegui uma maneira efetiva de permitir o acesso e manipulação de arquivos
