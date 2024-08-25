@@ -1,0 +1,14 @@
+Lembrem-se de verificar os caminhos os arquivos a serem abertos! Se não, o código crasha. 
+
+Como um bom estudante de Ciência de Dados, precisei, logicamente, lidar com uma grande quantidade de dados para filtrar alguns arquivos, coisa que logicamente não queria fazer manualmente. Decidi pôr em prática algumas aulinhas de prompt com GPT-3 e após alguns debuggs mais do que necessários, chegamos ao resultado esperado! 
+
+
+O problema: O source do problema era um backup imenso de 17gb do meu google fotos que eu gostaria de ter localmente para poder acessar remotamente sem precisar passar pelo crivo de pagar por mais armazenamento de imagens que nem visualizo com frequência. A questão era que o Takeout me trouxe também os arquivos .json de registro do backup. Nesse cenário, eu estava com 8gb de fotos e 9gb só de .json e não queria fazê-lo manualmente! 
+
+
+A solução: Pedi ao chat GPT-3 para agilizar a programação de uma querry para ler os arquivos contidos dentro do .zip original e reconhecer qualquer arquivo que terminasse em .json e os transferisse para um outro arquivo .zip, onde poderia armazenar informações importantes de fotos e vídeos por razões legais, caso timestamps e demais informações fossem necessárias um dia. 
+
+
+E eis que... É impressionante o que podemos, mesmo como iniciantes no estudo de programação, evitar fazer "na unha" tarefas demoradas e repetitivas. Imagine só eu precisando abrir mais de 20 pastas e apagar 9gb de .json manualmente... 
+
+
